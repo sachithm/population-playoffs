@@ -1,0 +1,199 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: 'IBM Plex Sans Condensed', sans-serif; 
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background-color: #2E91B3;
+	margin: 0;
+	font-size: 56px;
+	padding: 14px 0;
+	transition: background-color 0.5s;
+	line-height: 1.2;
+}
+
+p {
+	margin: 0;
+}
+
+.h11 {
+	text-transform: uppercase;
+	font-size: 72px;
+	letter-spacing: -2px;
+}
+
+.h12 {
+	font-size: 50px;
+}
+
+.stripe {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stripe > button {
+	height: 100%;
+	background-color: #2E2C2C;
+    border-radius: 0;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #2E91B3;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #1a5a70;
+}
+
+.bar {
+	height: 30px;
+}
+
+.score {
+	margin: 5px auto;
+	color: #2E91B3;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.scoreplus {
+	margin: 5px auto;
+	color: green;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.scoreloss {
+	margin: 5px auto;
+	color: #B81212;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+}
+
+.counter p {
+	width: 100px;
+}
+
+
+.game {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.cols {
+	width: 175px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.centcol {
+	height: 300px;
+}
+
+
+button {
+	width: 125px;
+	height: 25px;
+	border: none;
+	background: none;
+	background-color: #2E2C2C;
+	font-weight: 700;
+	color: white;
+	border-radius: 0%;
+	letter-spacing: 0.2px;
+	font-size: 15px;
+	transition: all 0.25s;
+	outline: none;
+	line-height: 0.85;
+}
+
+.space {
+	margin-bottom: 10px;
+}
+
+.space1 {
+	margin-bottom: 53px;
+}
+
+.space2 {
+	margin-bottom: 156px;
+}
+
+.cent {
+	padding: 10px 0;
+}
+
+.winner {
+	background-color: green;
+}
+
+.loser {
+	background-color: #B81212;
+}
+
+.faded {
+	background-color: steelblue;
+}
